@@ -32,6 +32,10 @@ button {
 	margin: 20px 0;
 }
 
+button:active {
+	transform: scale(0.99);
+}
+
 .circle {
 	width: 200px;
 	height: 200px;
@@ -40,6 +44,7 @@ button {
 	border-radius: 50%;
 	transform: translate(-50%, -50%) scale(0);
 	animation: scale 0.4s ease-out;
+	pointer-events: none;
 }
 
 @keyframes scale {
