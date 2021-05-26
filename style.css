@@ -7,6 +7,7 @@
 }
 
 body {
+	background-color: #252a34;
 	font-family: 'roboto', sans-serif;
 	display: flex;
 	height: 100vh;
@@ -14,4 +15,8 @@ body {
 	align-items: center;
 	justify-content: center;
 	overflow: hidden; /* Use to hide the scrool bar */
+}
+
+button {
+	background-color: #ff2e63;
 }
